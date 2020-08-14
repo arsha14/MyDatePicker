@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ -->
+
+ ### My-Date-Picker Component
+ All the CSS elements and JS logic can be found in src/MyDatePicker.
+ The CSS element highlighting reminder dates, current date and other things can be found at the very end of MyDatePicker.css under list of 'c-day-container. highlight/reminder-highlight/highlight-green .cdc-day span'. 
+ For the JS logic look for reminderDays array element in this.state in constructor() that stores all notification dates and isReminderDay() function that returns whether a given date is a Reminder Date or not
+
+
+ ### Things to be done
+ Call firebase API and populate reminderDays[] array during ComponentWillMount or ComponentDidMount
+ There seems to be confusion in Month and Year elements in component's state. Console.log is showing them '0'
+ Reminder text appearing on hover
