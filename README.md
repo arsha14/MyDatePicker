@@ -78,6 +78,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
  ### Things to be done
  Call firebase API and populate reminderDays[] array during ComponentWillMount or ComponentDidMount
- 
+
  There seems to be confusion in Month and Year elements in component's state. Console.log is showing them '0'
+ 
  Reminder text appearing on hover
